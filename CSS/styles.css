@@ -21,25 +21,25 @@ label {
 }
 input, textarea {
   outline: 0;
-  border-radius: 7px;
+  border-radius: 5px;
   border: 1px solid #835835;
 }
 
 input:focus, textarea:focus {
   background: #fce3c3;
   }
-
-  input[type='radio']:checked:after {
-    width: 10px;
-    height: 10px;
-    border-radius: 15px;
-    position: relative;
-    background-color: #836123;
-    content:'';
-    display: inline-block;
-    visibility: visible;
-    border: 2px solid white;
-}
+  
+input[type='radio']:checked:after {
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  position: relative;
+  background-color: #836123;
+  content:'';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+  }
 
 
 .contenedor {
@@ -48,8 +48,8 @@ input:focus, textarea:focus {
 }
 
 .titulo {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 70px;
+  font-family: 'Satisfy', cursive;
+  font-size: 90px;
   margin-top: 70px;
   margin-bottom: 0px;
 }
@@ -60,7 +60,8 @@ input:focus, textarea:focus {
 }
 
 .title-b {
-  font-size: 50px;
+  font-family: 'Satisfy', cursive;
+  font-size: 55px;
   margin-bottom: 20px;
 }
 
@@ -120,9 +121,9 @@ input:focus, textarea:focus {
 .cafe {
   padding: 10px;
   margin: 10px;
-  border: 1px solid #412B19;
+  border: 2px solid #412B19;
  /* overflow: hidden;  para que no desborden nuestras imagenes*/
- border-radius: 8px;
+ border-radius: 12px;
 }
 
 .cafe ol {
@@ -130,7 +131,7 @@ input:focus, textarea:focus {
 }
 
 .cafe.granoscafe {
-height: 190px;
+  height: 190px;
 }
 
 .right {
@@ -188,9 +189,9 @@ height: 190px;
   /* padding-top: 50px;
   padding-right: 10px;
   padding-left: 10px;
-  padding-bottom: 50px; */
+  padding-bottom: 50px;
 
-  padding: 50px 10px;
+  padding: 50px 10px;*/
 }
 
 .col1, .col2 {
@@ -212,8 +213,9 @@ height: 190px;
   font-size: 12px;
 }
 
+
 .formulario label, .generos, .intereses {
-margin-bottom: 10 px;
+  margin-bottom: 10px;
 }
 
 .generos {
